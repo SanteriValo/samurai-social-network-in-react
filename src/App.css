@@ -9,11 +9,13 @@
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
     grid-gap: 10px;
+    color: #e4ecf3;
 }
 
 .header {
     grid-area: h;
-    background-color: #95f3bd;
+    background-color: #464646;
+    border-radius: 20px 20px 0 0;
 }
 
 .header img {
@@ -22,14 +24,20 @@
 
 .nav {
     grid-area: n;
-    background-color: #80ceea;
+    background-color: #464646;
+    border-radius: 0 0 0 20px;
 }
 
 .content {
     grid-area: c;
-    background-color: #d08efd;
+    background-color: #464646;
+    border-radius: 0 0 20px 0;
 }
 
 .content img {
     width: 100%;
+}
+
+a {
+    color: darkgrey;
 }
