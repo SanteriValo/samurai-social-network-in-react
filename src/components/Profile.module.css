@@ -7,3 +7,12 @@
 .content img {
     width: 100%;
 }
+
+.item {
+    color: lightblue;
+    margin-left: 20px;
+}
+
+.contentItem {
+    margin-left: 20px;
+}
