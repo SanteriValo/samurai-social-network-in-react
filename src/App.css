@@ -11,3 +11,7 @@
     grid-gap: 10px;
     color: #e4ecf3;
 }
+
+a:visited {
+    color: gold;
+}
