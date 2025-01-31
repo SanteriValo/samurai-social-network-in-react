@@ -6,12 +6,12 @@
     min-height: 500px;
 }
 
-.item {
-    color: #afafaf;
+.item a {
+    color: #c5c5c5;
     margin-left: 20px;
 }
 
-.item.active:visited {
+.item a.activeLink {
     color: gold;
 }
 
