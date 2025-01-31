@@ -1,8 +1,8 @@
-import classes from './Header.module.css'
+import styles from './Header.module.css'
 
 const Header = () => {
     return (
-        <header className={classes.header}>
+        <header className={styles.header}>
             <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"
                 alt="logo"/>

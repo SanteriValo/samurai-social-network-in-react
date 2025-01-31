@@ -1,5 +1,6 @@
 body {
     background-color: #343434;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 .app-wrapper {
@@ -15,8 +16,16 @@ body {
     grid-gap: 8px;
     color: #e4ecf3;
     margin-top: 20px;
+    max-width: 100%
+}
+
+.app-content {
+    grid-area: c;
+    background-color: #5b5b5b;
+    border-radius: 0 0 14px 0;
+    padding: 10px 20px 10px 20px;
 }
 
 a:visited {
-    color: gold;
+    color: #d5d5d5;
 }
