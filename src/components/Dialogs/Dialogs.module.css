@@ -1,0 +1,28 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: auto 1fr;
+}
+
+.header {
+    grid-column: span 2;
+}
+
+.dialogsItems {
+}
+
+.dialogsItems .active {
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+}
+
+.dialog {
+
+}
+
+.messages {
+}
+
+.message {
+    margin: 0;
+}
