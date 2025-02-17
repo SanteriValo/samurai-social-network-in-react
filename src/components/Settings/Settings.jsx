@@ -3,7 +3,7 @@ import styles from './Settings.module.css'
 const Settings = (props) => {
     return (
         <div>
-            <h2>Settings</h2>
+            <h3>Settings</h3>
         </div>
     )
 }

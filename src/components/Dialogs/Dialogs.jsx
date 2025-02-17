@@ -18,7 +18,7 @@ const Message = (props) => {
 const Dialogs = (props) => {
     return (
         <div className={styles.dialogs}>
-            <h2 className={styles.header}>Dialogs</h2>
+            <h3 className={styles.header}>Dialogs</h3>
             <div className={styles.dialogsItems}>
                 <DialogItem name="Harvey" id="1"/>
                 <DialogItem name="Mike" id="2"/>

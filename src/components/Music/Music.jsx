@@ -3,7 +3,7 @@ import styles from './Music.module.css'
 const Music = (props) => {
     return (
         <div>
-            <h2>Music</h2>
+            <h3>Music</h3>
         </div>
     )
 }
