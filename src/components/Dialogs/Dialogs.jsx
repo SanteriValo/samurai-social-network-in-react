@@ -50,7 +50,7 @@ const Dialogs = (props) => {
                 <Message message={messagesData[0].message}/>
                 <Message message={messagesData[1].message}/>
                 <Message message={messagesData[2].message}/>
-                <Message message={messagesData[3].message}/>
+                <Message message ={messagesData[3].message}/>
                 <Message message={messagesData[4].message}/>
                 <Message message={messagesData[5].message}/>
             </div>
