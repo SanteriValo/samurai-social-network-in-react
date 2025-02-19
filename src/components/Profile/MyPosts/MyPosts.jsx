@@ -3,12 +3,12 @@ import Post from './Post/Post.jsx'
 
 const MyPosts = () => {
 
-    const postsData = [
+    const posts = [
         {id: 1, message: 'Hi, how are you?', likesCount: 7},
         {id: 2, message: 'It\'s my first post', likesCount: 12}
     ]
 
-    const postElements = postsData.map((post) => <Post message={post.message} likesCount={post.likesCount}/>)
+    const postElements = posts.map((p) => <Post message={p.message} likesCount={p.likesCount}/>)
 
     return (
         <div className={styles.content}>
