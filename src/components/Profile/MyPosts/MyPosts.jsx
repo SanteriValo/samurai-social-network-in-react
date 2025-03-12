@@ -2,8 +2,9 @@ import styles from './MyPosts.module.css'
 import Post from './Post/Post.jsx'
 
 const MyPosts = (props) => {
-
-    const postElements = props.posts.map((p) => <Post message={p.message} likesCount={p.likesCount}/>)
+    console.log("MyPosts props:", props);
+    console.log("MyPosts props.posts:", props.posts);
+    const postElements = props.posts.map((p) => <Post key={p.id} message={p.message} likesCount={p.likesCount}/>)
 
     return (
         <div className={styles.content}>
