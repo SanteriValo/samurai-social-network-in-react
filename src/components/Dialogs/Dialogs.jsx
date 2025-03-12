@@ -13,7 +13,7 @@ const Dialogs = (props) => {
                 {dialogsElements}
             </div>
             <div className={styles.messages}>
-                {messageElements}
+            {messageElements}
             </div>
         </div>
 )
