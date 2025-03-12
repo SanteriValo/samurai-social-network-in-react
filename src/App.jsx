@@ -6,11 +6,10 @@ import Dialogs from "./components/Dialogs/Dialogs.jsx";
 import News from "./components/News/News.jsx";
 import Music from "./components/Music/Music.jsx";
 import Settings from "./components/Settings/Settings.jsx";
-import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
+import {Route, Routes, Navigate} from "react-router-dom";
 
 const App = (props) => {
     return (
-        <BrowserRouter>
             <div className="app-wrapper">
                 <Header/>
                 <Navbar/>
@@ -25,7 +24,6 @@ const App = (props) => {
                     </Routes>
                 </div>
             </div>
-        </BrowserRouter>
     )
 }
 

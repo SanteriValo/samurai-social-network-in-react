@@ -1,10 +1,23 @@
 .item {
-    color: lightblue;
+    color: #d3ecf5;
     /*margin-left: 20px;*/
+    display: flex;
+    border: 1px solid #d3ecf5;
+    border-radius: 6px;
+    padding: 7px;
+    width: fit-content;
+}
+
+.message {
+    padding-left: 0.5em;
 }
 
 .item img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+.likes {
+    align-self: flex-end;
 }

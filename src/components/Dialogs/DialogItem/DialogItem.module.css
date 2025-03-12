@@ -1,6 +1,5 @@
 .dialog {
-    display: flex;
-    align-items: flex-start;
+    display: inline-flex;
     gap: 0.5rem;
 }
 
