@@ -3,9 +3,9 @@ import styles from './ProfileInfo.module.css'
 const ProfileInfo = () => {
     return (
         <div>
-            <div>Main content
-                <img
-                    src="https://media.licdn.com/dms/image/v2/D4D16AQHvE3xNl5cTWw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1731583753566?e=1743033600&v=beta&t=tmrCY-eTfjij1iKONTIaZg5o49EBtc5nTswxlnqpZXo"
+            <div className={styles.imageContainer}>Main content
+                <img className={styles.profileImage}
+                    src="https://cdn.pixabay.com/photo/2017/06/24/20/38/winter-2438791_960_720.jpg"
                     alt="main content image one"/>
             </div>
             <div>
