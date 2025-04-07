@@ -1,14 +1,19 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+    gap: 10px;
 }
 
 .header {
     grid-column: span 2;
+    margin: 0;
 }
 
 .dialogsItems {
+    margin-bottom: 2em;
+    overflow-y: auto;
 }
 
 .dialogsItems .active {
@@ -21,8 +26,23 @@
 }
 
 .messages {
+    grid-column: 2;
+    overflow-y: auto;
 }
 
 .message {
     margin: 0;
+}
+
+textarea {
+    grid-column: span 2;
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    resize: none;
+}
+
+.createMessageButton {
+    margin-bottom: 1em;
 }
