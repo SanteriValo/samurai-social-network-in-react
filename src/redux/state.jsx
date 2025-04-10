@@ -25,17 +25,24 @@ const state = {
         posts: [
             {id: 1, message: 'Hi, how are you?', likesCount: 7},
             {id: 2, message: 'It\'s my first post', likesCount: 12}
-        ]
+        ],
+        newPostText: "IT-kamasutra",
     }
 };
 
-export const addPost = (postMessage) => {
+export const addPost = () => {
     const newPost = {
-        id: 5,
-        message: postMessage,
-        likesCount: 0
+        id: Date.now(),
+        message: state.profilePage.newPostText,
+        likesCount: 0,
     }
     state.profilePage.posts.push(newPost);
+    state.profilePage.newPostText = '';
+    rerenderEntireTree(state);
+}
+
+export const updateNewPostText = (changedMessage) => {
+    state.profilePage.newPostText = changedMessage;
     rerenderEntireTree(state);
 }
 
